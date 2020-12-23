@@ -1,0 +1,98 @@
+// $body-bg: #000;
+// $body-color: #c0c0c0;
+
+@import "~bootstrap/scss/bootstrap";
+
+.resultList {
+  display: grid;
+  grid-template-columns: 60px auto;
+}
+
+.resultList .time {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: 115px auto;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-weight: 700;
+}
+
+.form-row {
+  line-height: calc(1.5em + 0.75rem + 2px);
+  vertical-align: middle;
+}
+
+.resultList div {
+  line-height: 2em;
+}
+
+.resultList .time {
+  border-right: solid 1px gray("400");
+  border-bottom: solid 1px gray("400");
+}
+
+.resultList .event {
+  border-bottom: solid 1px gray("400");
+  padding-left: 5px;
+}
+
+.form-check {
+  line-height: 2em;
+}
+
+.form-check-input {
+  margin-top: 0.5rem;
+}
+
+.selectionHeader {
+  display: flex;
+  cursor: pointer;
+}
+
+.selectionHeader .indicator {
+  margin-left: auto;
+}
+
+.timing-plan {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.roast-plan {
+  margin-top: 10px;
+}
+
+.roast-plan .indicator, .timing-plan .indicator {
+  margin-left: auto;
+}
+
+.roast-plan .card-header, .timing-plan .card-header {
+  display: flex;
+}
+
+.roast-plan .button {
+  padding: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 15px;
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+.roast-plan .hide {
+  background-color: #ff99cc;
+  color: #cc0066;
+  border: solid 1px #ff3399;
+}
+
+.roast-plan .show {
+  background-color: #99ff99;
+  color: #009933;
+  border: solid 1px #009933;
+}
